@@ -13,7 +13,7 @@ struct Module
     std::vector<int> _prev;
 };
 
-void solve4()
+void solve()
 {
     int nbModules;
     std::cin >> nbModules;

@@ -5,7 +5,7 @@
 #include <vector>
 
 
-void solve3()
+void solve()
 {
     int nbDices;
     std::cin >> nbDices;

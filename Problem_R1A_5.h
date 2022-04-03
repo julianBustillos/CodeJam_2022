@@ -10,7 +10,7 @@ struct Room
     bool _walked = false;
 };
 
-void solve5()
+void solve()
 {
     long long nbRooms, nbSteps;
     std::cin >> nbRooms >> nbSteps;

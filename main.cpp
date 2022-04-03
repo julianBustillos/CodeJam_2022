@@ -7,7 +7,7 @@
 #include <stack>
 #include <cmath>
 
-#include "Problem_5.h"
+#include "Problem_R1A_5.h"
 
 
 int main(int argc, char* argv[])
@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
     for (int test = 1; test <= nbTests; test++)
     {
         //std::cout << "Case #" << std::to_string(test) << ": ";
-        solve5();
+        solve();
     }
 }
 

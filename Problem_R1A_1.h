@@ -3,7 +3,7 @@
 #include <iostream>
 
 
-void solve1()
+void solve()
 {
     std::cout << std::endl;
     int R = 0, C = 0;

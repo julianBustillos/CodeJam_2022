@@ -2,7 +2,7 @@
 #include <iostream>
 
 
-void solve2()
+void solve()
 {
     int printer[3][4];
     for (int i = 0; i < 3; i++)
