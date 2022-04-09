@@ -40,13 +40,13 @@ void solve()
     std::vector<std::vector<int>> common(E, std::vector<int>(E, 0));
     for (int ei = 0; ei < E; ei++)
     {
-        std::vector<int> accumulatedMin(W, std::numeric_limits<int>::max());
+        std::vector<int> accMin(W, std::numeric_limits<int>::max());
         for (int ej = ei; ej < E; ej++)
         {
             for (int w = 0; w < W; w++)
             {
-                accumulatedMin[w] = std::min(accumulatedMin[w], exercices[ej][w]);
-                common[ei][ej] += accumulatedMin[w];
+                accMin[w] = std::min(accMin[w], exercices[ej][w]);
+                common[ei][ej] += accMin[w];
             }
         }
     }
@@ -66,18 +66,3 @@ void solve()
 
     std::cout << 2 * (DP[0][E - 1] + common[0][E - 1]) << std::endl;
 }
-
-
-int main(int argc, char* argv[])
-{
-    int nbTests = 0;
-    std::cin >> nbTests;
-
-    for (int test = 1; test <= nbTests; test++)
-    {
-        std::cout << "Case #" << std::to_string(test) << ": ";
-        solve();
-    }
-}
-
-

@@ -35,5 +35,14 @@
     <ClInclude Include="Problem_RQ_5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Problem_R1A_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem_R1A_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem_R1A_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

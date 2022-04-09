@@ -142,6 +142,9 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Problem_R1A_1.h" />
+    <ClInclude Include="Problem_R1A_2.h" />
+    <ClInclude Include="Problem_R1A_3.h" />
     <ClInclude Include="Problem_RQ_1.h" />
     <ClInclude Include="Problem_RQ_2.h" />
     <ClInclude Include="Problem_RQ_3.h" />
