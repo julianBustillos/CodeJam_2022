@@ -56,7 +56,6 @@ void solve()
     uint N = 1;
     std::vector<std::vector<int>> P(4, std::vector<int>());
     fillP(P, 3);
-    P[3].insert(P[3].begin(), 0);
 
     int step = 0;
     while (N > 0)
