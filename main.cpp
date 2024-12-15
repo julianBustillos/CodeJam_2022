@@ -24,7 +24,7 @@ using ull = unsigned long long;
 
 void solve()
 {
-
+   //TODO
 }
 
 int main(int argc, char* argv[])
